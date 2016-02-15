@@ -1,4 +1,7 @@
 {
-	"name": "flickr",
-	"main": "html/index.html"
+  "name": "flickr",
+  "main": "html/index.html",
+  "dependencies": {
+    "flickrapi": "^0.3.36"
+  }
 }
