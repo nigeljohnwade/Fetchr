@@ -46,3 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 config.js
+.idea/*
+node_modules/*
+data/*
+nigel/*
+19471305@N00/*
