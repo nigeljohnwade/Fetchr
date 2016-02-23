@@ -5,3 +5,7 @@ input[type=text]{
 .error{
     border: 1px solid #900;
 }
+
+.image-container{
+    display: inline-block;
+}

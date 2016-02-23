@@ -26,8 +26,10 @@ function searchFlickr(query){
                     var tempImg = document.createElement('img');
                     tempImg.setAttribute('src', 'https://farm' + currentImg.farm + '.staticflickr.com/' + currentImg.server + '/' + currentImg.id + '_' + currentImg.secret + '_t.jpg');
                     tempImg.setAttribute('title', result.photos.photo[i].title);
+                    tempImg.setAttribute('colorify', '');
                     imgTarget.appendChild(tempImg);
                 }
+                colorify({container: 'picture-panel'})
             }
         });
     });
