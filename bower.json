@@ -1,0 +1,24 @@
+{
+  "name": "Fetchr",
+  "description": "Gets your flickr images",
+  "main": "html/index.html",
+  "authors": [
+    "Nigel Wade <nigeljohnwade@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nigeljohnwade/Fetchr",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "colorifyjs": "~1.0.1"
+  }
+}
